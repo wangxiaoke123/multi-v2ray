@@ -54,6 +54,8 @@ V2ray多用户管理脚本，向导式管理[新增|删除|修改]传输协议�
   - Shadowsocks
   - Quic
   
+免费IPV6 VPS euserv申请地址：https://www.euserv.com/en/virtual-private-server/root-vserver/v2/vs2-free.php
+
 ## VPS设置IPV4访问
 
 输入下面代码修改nameserver

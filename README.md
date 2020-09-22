@@ -53,7 +53,17 @@ V2ray多用户管理脚本，向导式管理[新增|删除|修改]传输协议�
   - MTProto
   - Shadowsocks
   - Quic
+  
+## VPS设置IPV4访问
 
+输入下面代码修改nameserver
+```
+echo -e "nameserver 2001:67c:2b0::4•\nnameserver 2001:67c:2b0::6" > /etc/resolv.conf
+```
+## 安装Curl
+```
+apt-get update -y && apt-get install curl -y
+```
 ## 安装命令
 ```
 source <(curl -sL https://multi.netlify.app/v2ray.sh) --zh
